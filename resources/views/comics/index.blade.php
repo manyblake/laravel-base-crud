@@ -14,6 +14,7 @@
       <h3>Titolo: {{ $comic->title }}</h3>
 
       <img src={{ $comic->thumb }}>
+      <a href="{{ route('comics.edit', $comic) }}">Modifica</a>
     </div>
   </a>
 @endforeach
