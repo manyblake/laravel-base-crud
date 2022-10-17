@@ -4,7 +4,7 @@
 
 <div class="container">
   <h2>
-  Aggiungi un fumetto
+  Modifica un fumetto
   </h2>
 </div>
 
