@@ -1,6 +1,6 @@
 <header>
-    <nav>
-        <ul>
+    <nav class="navbar container">
+        <ul class="navbar__list">
             <li>
                 <a href="{{ route('homepage') }}"> Home </a>
             </li>

@@ -1,0 +1,80 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.comics__box {
+  text-align: right;
+  padding: 20px 0;
+}
+
+h3 {
+  padding: 16px 0;
+}
+
+.comic__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.comics__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.comics__preview {
+  display: flex;
+  flex-direction: column;
+}
+
+.comics__edit,
+.comics__add {
+  margin-top: auto;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: all 0.3s linear;
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.comics__edit:hover,
+.comics__add:hover {
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: cornflowerblue;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 30px;
+  color: white;
+  padding: 20px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
